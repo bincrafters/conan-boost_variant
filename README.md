@@ -2,7 +2,7 @@
 
 [Conan.io](https://conan.io) package for [Boost.Variant](https://github.com/Boostorg/Variant) project
 
-The packages generated with this **conanfile** can be found in [Bintray](https://bintray.com/bincrafters/conan-public/Boost.Variant%3Abincrafters).
+The packages generated with this **conanfile** can be found in [Bintray](https://bintray.com/bincrafters/public-conan/Boost.Variant%3Abincrafters).
 
 ## For Users: Use this package
 
