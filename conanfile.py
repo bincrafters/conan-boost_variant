@@ -2,26 +2,26 @@ from conans import ConanFile, tools, os
 
 class BoostVariantConan(ConanFile):
     name = "Boost.Variant"
-    version = "1.64.0"
+    version = "1.65.1"
     short_paths = True
     url = "https://github.com/bincrafters/conan-boost-variant"
-    description = "Please visit http://www.boost.org/doc/libs/1_64_0/libs/libraries.htm"
+    description = "Please visit http://www.boost.org/doc/libs/1_65_1/libs/libraries.htm"
     license = "www.boost.org/users/license.html"
     lib_short_names = ["variant"]
-    requires =  "Boost.Assert/1.64.0@bincrafters/testing", \
-                      "Boost.Bind/1.64.0@bincrafters/testing", \
-                      "Boost.Config/1.64.0@bincrafters/testing", \
-                      "Boost.Core/1.64.0@bincrafters/testing", \
-                      "Boost.Detail/1.64.0@bincrafters/testing", \
-                      "Boost.Functional/1.64.0@bincrafters/testing", \
-                      "Boost.Math/1.64.0@bincrafters/testing", \
-                      "Boost.Mpl/1.64.0@bincrafters/testing", \
-                      "Boost.Preprocessor/1.64.0@bincrafters/testing", \
-                      "Boost.Static_Assert/1.64.0@bincrafters/testing", \
-                      "Boost.Throw_Exception/1.64.0@bincrafters/testing", \
-                      "Boost.Type_Index/1.64.0@bincrafters/testing", \
-                      "Boost.Type_Traits/1.64.0@bincrafters/testing", \
-                      "Boost.Utility/1.64.0@bincrafters/testing"
+    requires =  "Boost.Assert/1.65.1@bincrafters/testing", \
+                      "Boost.Bind/1.65.1@bincrafters/testing", \
+                      "Boost.Config/1.65.1@bincrafters/testing", \
+                      "Boost.Core/1.65.1@bincrafters/testing", \
+                      "Boost.Detail/1.65.1@bincrafters/testing", \
+                      "Boost.Functional/1.65.1@bincrafters/testing", \
+                      "Boost.Math/1.65.1@bincrafters/testing", \
+                      "Boost.Mpl/1.65.1@bincrafters/testing", \
+                      "Boost.Preprocessor/1.65.1@bincrafters/testing", \
+                      "Boost.Static_Assert/1.65.1@bincrafters/testing", \
+                      "Boost.Throw_Exception/1.65.1@bincrafters/testing", \
+                      "Boost.Type_Index/1.65.1@bincrafters/testing", \
+                      "Boost.Type_Traits/1.65.1@bincrafters/testing", \
+                      "Boost.Utility/1.65.1@bincrafters/testing"
 
                       #assert1 bind3 config0 core2 detail5 functional5 math8 move3 mpl5 preprocessor0 static_assert1 throw_exception2 type_index5 type_traits3 utility5
 
