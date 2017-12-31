@@ -7,7 +7,7 @@ from conans import ConanFile, tools
 class BoostVariantConan(ConanFile):
     name = "boost_variant"
     version = "1.66.0"
-    url = "https://github.com/bincrafters/conan-boost-variant"
+    url = "https://github.com/bincrafters/conan-boost_variant"
 
     lib_short_names = ["variant"]
     is_header_only = True
