@@ -8,7 +8,8 @@ class BoostVariantConan(ConanFile):
     name = "boost_variant"
     version = "1.66.0"
     url = "https://github.com/bincrafters/conan-boost_variant"
-
+    author = "Bincrafters <bincrafters@gmail.com>"
+    exports = ["LICENSE.md"]
     lib_short_names = ["variant"]
     is_header_only = True
 
